@@ -148,7 +148,7 @@ class MockLLMClient:
             )
 
         # 场景 B: 合作修屋顶题 (similar_002 -> mem_002)
-        elif "roof" in prob_lower or "dave" in prob_lower or "worker eve" in prob_lower:
+        elif "repair a roof" in prob_lower or "dave" in prob_lower or "worker eve" in prob_lower:
             return (
                 "内部思考：已获取检索结果。\n"
                 "【分析旧题】：检索到的历史案例为 source_problem_id: seed_collaborative_work (mem_002)。"
